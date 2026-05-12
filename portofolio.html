@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AlexRam | Full-Stack Developer Portfolio — Modern Dark Theme Template</title>
+
+<meta name="description" content="AlexRam is a modern dark-themed portfolio HTML template for full-stack developers, programmers, and product designers. Features bilingual EN/ID, animated cursor, project gallery, work timeline, and fully responsive design. Ready to customize.">
+<meta name="keywords" content="portfolio template, developer portfolio, programmer portfolio, full-stack developer, web developer template, dark portfolio html, alexram, developer cv, personal website developer, portfolio html css js">
+<!--Hapus Bracket-->
+<meta name="author" content="[Alex Ramadhan]"> <!--Ganti nama Author-->
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow">
+
+<!--Hapus Bracket-->
+<link rel="canonical" href="[pakaidomainmudisini]">
+
+<!--Facebook, Discord, Linkedin, Discord, dll-->
+<meta property="og:title" content="AlexRam — Full-Stack Developer Portfolio Template">
+<meta property="og:description" content="Modern dark portfolio template for developers. Includes bilingual EN/ID, animations, timeline, and responsive design. Perfect for freelancers and job seekers.">
+<meta property="og:type" content="website">
+<!--Hapus Bracket-->
+<meta property="og:url" content="[pakaidomainmudisini]">
+<meta property="og:image" content="https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=1200&q=80">
+<meta property="og:image:alt" content="AlexRam Developer Portfolio Preview">
+<meta property="og:site_name" content="AlexRam Portfolio">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AlexRam — Full-Stack Developer Portfolio Template">
+<meta name="twitter:description" content="Modern dark portfolio template for developers. Bilingual EN/ID, animations, timeline. Ready to use.">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=1200&q=80">
+
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="portofolio.css" type="text/css">
+</head>
+<body>
+
+<div id="cursor"></div>
+<div id="cursor-trail"></div>
+
+<nav>
+  <a href="#" class="nav-logo">Alex<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="#about" data-en="About" data-id="Tentang">About</a></li>
+    <li><a href="#work" data-en="Work" data-id="Karya">Work</a></li>
+    <li><a href="#experience" data-en="Experience" data-id="Pengalaman">Experience</a></li>
+    <li><a href="#contact" data-en="Contact" data-id="Kontak">Contact</a></li>
+  </ul>
+  <div class="lang-btn">
+    <button class="active" onclick="setLang('en')">EN</button>
+    <button onclick="setLang('id')">ID</button>
+  </div>
+</nav>
+
+<section id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-glow2"></div>
+  <div class="hero-content">
+    <div class="hero-badge" data-en="✦ Available for Freelance" data-id="✦ Tersedia untuk Freelance">✦ Available for Freelance</div>
+    <h1 class="hero-title">
+      <div class="line1" data-en="Crafting Digital" data-id="Menciptakan">Crafting Digital</div>
+      <div class="line2" data-en="Experiences That" data-id="Pengalaman Digital">Experiences That</div>
+      <div><span class="accent-word" data-en="Actually Matter" data-id="Yang Bermakna">Actually Matter</span></div>
+    </h1>
+    <p class="hero-desc" data-en="Full-stack developer & product designer based in Jakarta. I build beautiful, functional digital products — from concept to launch." data-id="Developer full-stack & desainer produk berbasis di Jakarta. Saya membangun produk digital yang indah dan fungsional — dari konsep hingga peluncuran.">
+      Full-stack developer &amp; product designer based in Jakarta. I build beautiful, functional digital products — from concept to launch.
+    </p>
+    <div class="hero-cta">
+      <a href="#work" class="btn-primary" data-en="View My Work →" data-id="Lihat Karya Saya →">View My Work →</a>
+      <a href="#contact" class="btn-secondary" data-en="Get In Touch" data-id="Hubungi Saya">Get In Touch</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    <span data-en="Scroll to explore" data-id="Gulir untuk jelajahi">Scroll to explore</span>
+  </div>
+  <div class="hero-stats">
+    <div class="stat">
+      <div class="stat-num">5<span>+</span></div>
+      <div class="stat-label" data-en="Years Exp." data-id="Tahun Pengalaman">Years Exp.</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">32<span>+</span></div>
+      <div class="stat-label" data-en="Projects Done" data-id="Proyek Selesai">Projects Done</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">18<span>+</span></div>
+      <div class="stat-label" data-en="Happy Clients" data-id="Klien Puas">Happy Clients</div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="about-grid">
+    <div class="about-image-wrap reveal">
+      <div class="about-image-frame">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80&fit=crop&crop=faces" alt="Alex Ramadhan" loading="lazy" />
+        <div class="about-image-overlay"></div>
+      </div>
+      <div class="about-image-accent"></div>
+      <div class="about-tag tag1">
+        <div class="tag-dot"></div>
+        <span data-en="Open to work" data-id="Siap bekerja">Open to work</span>
+      </div>
+      <div class="about-tag tag2">
+        <div class="tag-dot" style="background:var(--accent2)"></div>
+        <span>Jakarta, ID 🇮🇩</span>
+      </div>
+    </div>
+    <div class="about-text">
+      <div class="section-label reveal" data-en="About Me" data-id="Tentang Saya">About Me</div>
+      <h2 class="section-title reveal" data-en="Building with Purpose,<br>Designing with Heart" data-id="Membangun dengan Tujuan,<br>Mendesain dengan Hati">Building with Purpose,<br>Designing with Heart</h2>
+      <div class="reveal">
+        <p data-en="I'm Alex Ramadhan, a full-stack developer with 5 years of experience turning ideas into impactful digital products. I specialize in React, Node.js, and modern design systems." data-id="Saya Alex Ramadhan, developer full-stack dengan 5 tahun pengalaman mengubah ide menjadi produk digital yang berdampak. Saya spesialis dalam React, Node.js, dan sistem desain modern.">
+          I'm Alex Ramadhan, a full-stack developer with 5 years of experience turning ideas into impactful digital products. I specialize in React, Node.js, and modern design systems.
+        </p>
+        <p data-en="I believe great software is the intersection of technical excellence and thoughtful design. When I'm not coding, I write about web performance and mentor junior developers." data-id="Saya percaya perangkat lunak yang hebat adalah perpaduan keunggulan teknis dan desain yang matang. Saat tidak coding, saya menulis tentang performa web dan membimbing developer junior.">
+          I believe great software is the intersection of technical excellence and thoughtful design. When I'm not coding, I write about web performance and mentor junior developers.
+        </p>
+      </div>
+      <div class="skills-grid reveal">
+        <!--Masukan Skill anda disini -->
+        <div class="skill-pill">React / Next.js</div>
+        <div class="skill-pill">TypeScript</div>
+        <div class="skill-pill">Node.js</div>
+        <div class="skill-pill">Figma</div>
+        <div class="skill-pill">PostgreSQL</div>
+        <div class="skill-pill">AWS / Cloud</div>
+        <div class="skill-pill">Tailwind CSS</div>
+        <div class="skill-pill">GraphQL</div>
+        <div class="skill-pill">Docker</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="section-label reveal" data-en="Selected Work" data-id="Karya Pilihan">Selected Work</div>
+  <h2 class="section-title reveal" data-en="Projects That Define Me" data-id="Proyek Yang Mendefinisikan Saya">Projects That Define Me</h2>
+  <p class="section-subtitle reveal" data-en="A curated selection of work I'm most proud of — each one solving a real problem." data-id="Pilihan karya terbaik saya — masing-masing memecahkan masalah nyata.">A curated selection of work I'm most proud of — each one solving a real problem.</p>
+
+  <div class="projects-grid">
+    <div class="project-card p1 reveal">
+      <div class="project-thumbnail">
+        <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=1200&q=80&fit=crop" alt="Nexus Project" loading="lazy" />
+        <div class="project-thumbnail-overlay"></div>
+        <div class="project-thumb-badge">NEXUS</div>
+      </div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="tag">SaaS</span>
+          <span class="tag">React</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">Full-stack</span>
+        </div>
+        <div class="project-name" data-en="Nexus — Team Collaboration Platform" data-id="Nexus — Platform Kolaborasi Tim">Nexus — Team Collaboration Platform</div>
+        <p class="project-desc" data-en="A real-time collaboration tool for distributed teams. Built with WebSockets, React, and PostgreSQL. Scaled to 10k+ active users in 6 months." data-id="Alat kolaborasi real-time untuk tim terdistribusi. Dibangun dengan WebSockets, React, dan PostgreSQL. Berkembang hingga 10k+ pengguna aktif dalam 6 bulan.">
+          A real-time collaboration tool for distributed teams. Built with WebSockets, React, and PostgreSQL. Scaled to 10k+ active users in 6 months.
+        </p>
+        <a href="#" class="project-link"><span data-en="View Case Study" data-id="Lihat Studi Kasus">View Case Study</span> <span class="arrow">→</span></a>
+      </div>
+    </div>
+
+    <div class="project-card p2 reveal">
+      <div class="project-thumbnail">
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=900&q=80&fit=crop" alt="Prism Project" loading="lazy" />
+        <div class="project-thumbnail-overlay"></div>
+        <div class="project-thumb-badge">PRISM</div>
+      </div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="tag">Mobile</span>
+          <span class="tag">React Native</span>
+        </div>
+        <div class="project-name" data-en="Prism — Finance Tracker" data-id="Prism — Pelacak Keuangan">Prism — Finance Tracker</div>
+        <p class="project-desc" data-en="Personal finance app with AI-powered insights and smart budgeting. 4.8★ on App Store." data-id="Aplikasi keuangan pribadi dengan wawasan berbasis AI dan penganggaran cerdas. Rating 4.8★ di App Store.">
+          Personal finance app with AI-powered insights and smart budgeting. 4.8★ on App Store.
+        </p>
+        <a href="#" class="project-link"><span data-en="View Case Study" data-id="Lihat Studi Kasus">View Case Study</span> <span class="arrow">→</span></a>
+      </div>
+    </div>
+
+    <div class="project-card p3 reveal">
+      <div class="project-thumbnail">
+        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=900&q=80&fit=crop" alt="Terra Project" loading="lazy" />
+        <div class="project-thumbnail-overlay"></div>
+        <div class="project-thumb-badge">TERRA</div>
+      </div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="tag">E-commerce</span>
+          <span class="tag">Next.js</span>
+        </div>
+        <div class="project-name" data-en="Terra — Sustainable Commerce" data-id="Terra — Belanja Berkelanjutan">Terra — Sustainable Commerce</div>
+        <p class="project-desc" data-en="E-commerce platform for sustainable brands. Custom checkout flow, real-time inventory, and 3D product previews." data-id="Platform e-commerce untuk brand ramah lingkungan. Alur checkout kustom, inventaris real-time, dan preview produk 3D.">
+          E-commerce platform for sustainable brands. Custom checkout flow, real-time inventory, and 3D product previews.
+        </p>
+        <a href="#" class="project-link"><span data-en="View Case Study" data-id="Lihat Studi Kasus">View Case Study</span> <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="section-label reveal" data-en="Experience" data-id="Pengalaman">Experience</div>
+  <h2 class="section-title reveal" data-en="Where I've Worked" data-id="Tempat Saya Bekerja">Where I've Worked</h2>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-period" data-en="2023 — Present" data-id="2023 — Sekarang">2023 — Present</div>
+      <div class="timeline-role" data-en="Senior Full-Stack Engineer" data-id="Senior Full-Stack Engineer">Senior Full-Stack Engineer</div>
+      <div class="timeline-company">Tokopedia — GoTo Group</div>
+      <p class="timeline-desc" data-en="Leading development of internal developer tooling and customer-facing features for Indonesia's largest marketplace. Mentoring a team of 6 engineers." data-id="Memimpin pengembangan alat developer internal dan fitur untuk marketplace terbesar Indonesia. Membimbing tim 6 engineer.">
+        Leading development of internal developer tooling and customer-facing features for Indonesia's largest marketplace. Mentoring a team of 6 engineers.
+      </p>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-period">2021 — 2023</div>
+      <div class="timeline-role" data-en="Frontend Engineer" data-id="Frontend Engineer">Frontend Engineer</div>
+      <div class="timeline-company">Gojek</div>
+      <p class="timeline-desc" data-en="Built and maintained the driver app dashboard serving 2M+ daily active drivers across Southeast Asia. Improved app load time by 40% through performance optimization." data-id="Membangun dan memelihara dasbor aplikasi driver untuk 2 juta+ pengemudi aktif harian di Asia Tenggara. Meningkatkan waktu muat aplikasi 40% melalui optimasi performa.">
+        Built and maintained the driver app dashboard serving 2M+ daily active drivers across Southeast Asia. Improved app load time by 40% through performance optimization.
+      </p>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-period">2019 — 2021</div>
+      <div class="timeline-role" data-en="Junior Developer & Designer" data-id="Developer & Desainer Junior">Junior Developer &amp; Designer</div>
+      <div class="timeline-company">Freelance / Startup Studio Jakarta</div>
+      <p class="timeline-desc" data-en="Worked with 12 early-stage startups across fintech, edutech, and healthtech verticals. Delivered full product cycles from wireframe to production." data-id="Bekerja dengan 12 startup tahap awal di bidang fintech, edutech, dan healthtech. Menyelesaikan siklus produk penuh dari wireframe hingga produksi.">
+        Worked with 12 early-stage startups across fintech, edutech, and healthtech verticals. Delivered full product cycles from wireframe to production.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact-glow"></div>
+  <div class="contact-inner">
+    <div class="section-label reveal" data-en="Get In Touch" data-id="Hubungi Saya">Get In Touch</div>
+    <h2 class="section-title reveal" data-en="Let's Build Something Great Together" data-id="Mari Buat Sesuatu Yang Luar Biasa Bersama">Let's Build Something Great Together</h2>
+    <p class="section-subtitle reveal" style="margin: 0 auto;" data-en="I'm currently open to new opportunities and exciting projects. Whether you have a project in mind or just want to connect — reach out!" data-id="Saya terbuka untuk peluang baru dan proyek menarik. Apakah Anda punya proyek atau sekadar ingin terhubung — hubungi saya!">
+      I'm currently open to new opportunities and exciting projects. Whether you have a project in mind or just want to connect — reach out!
+    </p>
+    <a href="mailto:alex@ramadhan.dev" class="contact-email reveal">alex@ramadhan.dev</a>
+    <div class="contact-socials reveal">
+      <a href="#" class="social-link">GH</a>
+      <a href="#" class="social-link">LI</a>
+      <a href="#" class="social-link">TW</a>
+      <a href="#" class="social-link">DR</a>
+      <a href="#" class="social-link">CV</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span style="color:var(--muted)" data-en="© 2025 Alex Ramadhan. All rights reserved." data-id="© 2025 Alex Ramadhan. Hak cipta dilindungi.">© 2025 Alex Ramadhan. All rights reserved.</span>
+  <span style="color:var(--muted)" data-en="Designed & Built with <span style='color:var(--accent)'>♥</span> in Jakarta" data-id="Dirancang & Dibangun dengan <span style='color:var(--accent)'>♥</span> di Jakarta">Designed &amp; Built with <span>♥</span> in Jakarta</span>
+</footer>
+<script src="portofolio.js"></script>
+</body>
+</html>
